@@ -1,0 +1,217 @@
+/* css Zen Garden submission 024 - 'Not So Minimal' by Daniel Rubin, http://www.superfluousbanter.org// */
+/* css released under Creative Commons ShareAlike License v1.0 - http://creativecommons.org/licenses/sa/1.0/  */
+/* All associated graphics copyright 2003,  Daniel Rubin */
+
+
+/* IMPORTANT */
+/* This design is not a template. You may not reproduce it elsewhere without the designer's written permission. */
+/* The CSS itself may freely be used for anything you wish, but the associated graphics belong to the designer. */
+/* What you may use - .css files. What you may not use - .jpg, .gif, and .png files. */
+
+
+
+/* global
+----------------------------------------------- */
+body {
+background: #fff no-repeat fixed top left;
+font-family: verdana, helvetica, arial, sans-serif;
+margin: 0 20px 0 20px;
+color: #333;
+}
+
+
+/* layout
+----------------------------------------------- */
+#container {
+position: relative;
+background: #ddd no-repeat top left;
+margin: 0 auto -1px auto;
+width: 1000px;
+border-bottom: 5px solid #09345f;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20;
+    background-color:#eee;
+    border: 5px solid #09345f;
+}
+
+#summary {
+width: 100%;
+text-align: right;
+}
+
+#summary p { display: none; }
+
+#content {
+margin: 25px 0 0 176px;
+width: 529px;
+}
+
+#footer {
+margin: 0 0 5px 0;
+padding: 10px 0 0 0;
+width: 100%;
+text-align: center;
+}
+
+#linkList {
+padding-top: 0px;
+padding-bottom: 5px;
+position: absolute;
+width: 150px;
+top: 166px;
+left: 5px;
+background: #09345f no-repeat 7px 4px;
+}
+
+
+/* text
+----------------------------------------------- */
+p {
+font-size: 12px;
+}
+
+#content p {
+line-height: 18px;
+}
+
+#footer {
+font-size: 9px;
+}
+
+#linkList h1 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: #eee;
+}
+
+
+/* lists
+----------------------------------------------- */
+#linkList ul {
+font-size: 10px;
+list-style:none;
+margin: 5px 0 0 0;
+padding: 0 0 0 0;
+}
+
+#linkList ul li {
+margin: 0;
+padding: 0 0 0 17px;
+line-height: 14px;
+color: #eee;
+}
+
+#linkList a:link, #linkList a:visited { display: block; }
+#linkList a.c:link, #linkList  a.c:visited { display:inline; }
+
+.toplevel { 
+    font-weight: bold; 
+    width: auto; 
+}
+
+td.toplevel {
+    border-bottom: 1px solid #09345f;
+}
+
+
+
+/* links
+----------------------------------------------- */
+a, a:link, a:visited {
+color: #999;
+}
+
+a:hover {
+color: #333;
+}
+
+#summary a, #summary a:link, #summary a:visited {
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#summary a:hover {
+text-decoration: underline;
+}
+
+#linkList a, #linkList a:link, #linkList a:visited {
+color: #ddd;
+text-decoration: none;
+}
+
+#linkList a:hover {
+text-decoration: underline;
+color: #bbb;
+}
+
+#linkList a.c, #linkList a.c:link, #linkList a.c:visited {
+color: #999;
+text-decoration: none;
+}
+
+#linkList a.c:hover {
+text-decoration: underline;
+color: #333;
+}
+
+#linkList #lselect a {
+font-size: 10px;
+}
+
+#linkList #lselect a.c {
+font-size: 9px;
+text-transform: lowercase;
+}
+
+#footer a, #footer a:link, #footer a:visited {
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+#footer a:hover {
+text-decoration: underline;
+}
+
+
+/* headings
+----------------------------------------------- */
+h3 { margin-bottom: 0px; }
+
+h3 span { display: none; }
+
+#content h3 {
+width: 529px;
+height: 15px;
+}
+
+#linkList h3 {
+width: 150px;
+height: 20px;
+margin-top: 10px;
+}
+
+/* misc
+--------------------------------- */
+acronym { border-width: 0; }
+
+span[bool $='true'] {
+    background-color:green;
+}
+
+span[bool $='false'] {
+    background-color:red;
+}
+
+td {
+    padding-left: 5px;
+}
+

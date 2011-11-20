@@ -1,0 +1,20 @@
+Prototype Status Web App
+Author: Jon Eisen (jonathan.eisen@ngc.com)
+
+ProtoStat README
+
+This web app is for querying the status of the prototype server.
+
+INSTALL:
+Simply copy all the files to somewhere under the wwwroot of a web server with
+PHP installed.
+
+CONFIGURATION:
+To configure, open config.php in a text editor.
+
+IMPORTANT NOTES:
+Verify hostnames are set up on this machine.
+Verify that rsa keys are copied to remote hosts.
+
+WHO TO CONTACT?
+Jon Eisen (jonathan.eisen@ngc.com) is the author of this web app.
